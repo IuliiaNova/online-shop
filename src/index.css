@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-    width: 1280px;
+    width: 80%;
     margin: 50px auto;
 
 }
@@ -42,7 +42,7 @@ ul.nav li:hover {
 
 header .presentation {
     margin: 50px 0;
-    background-color: #fb5607;
+    background-color: #BE997E;
     width: 100%;
     height: 30vh;
     position: relative;
@@ -60,17 +60,22 @@ header .presentation::after {
     
 }
 
+
 header .presentation::before {
-    content: "Simple care";
+    content: "The best of nature beauty";
+    border-left: 2px solid #ff006e;
     position: absolute;
+    padding: 1rem;
+    margin-left: 100px;
     top: 50px;
-    left: 50px;
+    left: 0px;
+    height: 100%;
     width: 200px;
     font-size: 60px;
     font-weight: 600;
-    text-shadow: 2px 2px 3px white;
-    color:#ff006e;
-    -webkit-text-stroke: 0.5px #8338ec;
+    text-shadow: 1px 1px 2px #ff006e;
+    color:#231510;
+
 }
 
 
